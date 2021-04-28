@@ -6,6 +6,6 @@ export default {
   modalFavBtn: document.querySelector('.star-icon-modal'),
   closeModalBtn: document.querySelector('.modal-close-button'),
   favSection: document.querySelector('.section-fav'),
-  favMovies: document.querySelectorAll('.fav-movie'),
+  favMovies: document.querySelectorAll('.movie-name'),
   allMovies: document.querySelectorAll('.movie-gallery-item'),
 };

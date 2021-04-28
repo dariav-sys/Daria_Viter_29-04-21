@@ -17,7 +17,7 @@ function modalWindowHandler(event) {
   fetchMovieById(film_ID);
 }
 
-function fetchMovieById(id) {
+export function fetchMovieById(id) {
   const url = `https://my-json-server.typicode.com/moviedb-tech/movies/list/${id}`;
 
   return fetch(url)
