@@ -1,12 +1,16 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
 }
 
 
 
 @import "./components/main-section/main-section.css";
 @import "./components/modal-window/modal-window.css";
+@import "./components/favourites-section/favourites-section.css"
